@@ -1,0 +1,4 @@
+#disable: true
+where:
+  - {org: 'cargomedia', repos: ['sk', 'cm']}
+when: '0 10 * * 1'

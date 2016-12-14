@@ -1,0 +1,26 @@
+{
+  "name": "github-bot",
+  "description": "Run customised tasks over github repos",
+  "version": "0.1.0",
+  "author": "Cargomedia",
+  "license": "MIT",
+  "main": "lib/bot.js",
+  "bin": {
+    "github-bot": "./bin/github-bot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cargomedia/github-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cargomedia/github-bot/issues"
+  },
+  "scripts": {
+    "test": "node test/runner.js"
+  },
+  "dependencies": {
+    "cron": "^1.1.1",
+    "github": "^7.0.1",
+    "js-yaml": "^3.7.0"
+  }
+}
